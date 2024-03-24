@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;}
+
+header{
+ background-color: rgb(5,20,51); 
+ 
+}
+body{
+    height: 1900px;
+    background-color: #8AA6BF;
+}
+
+#logo{
+    display: block;
+    margin: auto;
+}
+
+#navv{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+#navv li {
+    list-style: none;
+}
+
+#pesquisa{
+    margin-left: 30px;
+}
+
+.start-container h2{
+    color: white;
+}
+
+
+.media{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+input{
+    width: 180px;
+    margin: 0;
+}
+
+
+.classicos .dropdown {
+    display: none;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Adicionando transição */
+}
+
+.classicos:hover .dropdown {
+    display: block;
+    opacity: 1;
+}
+
+
+.inicio{
+    font-size: 35px;
+    text-align: center;
+    transition: 1.3s;
+}
+
+.inicio:hover{
+    color: #F2EDD5;
+}
+
+.produto {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.produto h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.produto p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #666;
+}
+
+
+
+.produtos{
+    margin-top: 45px;
+    display: flex;
+justify-content:center;
+gap: 40px;
+
+}
+
+
+#s{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 35px;
+    color:#0A1659;
+    transition: 1.3s;
+}
+
+#s:hover{
+    color: #F2EDD5;
+
+
+}
+
+.produto {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.produto h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.produto p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #666;
+}
+
+
+
+.produtos2{
+    margin-top: 45px;
+    display: flex;
+justify-content:center;
+gap: 40px;
+
+}
+
+#insta{
+    padding-right: 15px;
+}
+
+#whats{
+    padding-left: 15px;
+}
+
+
+.nav-bar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #F2EDD5;
+    transition: 1.2s;
+}
+
+.nav-bar a:hover{
+    color: #0A1659;
+}
